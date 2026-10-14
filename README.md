@@ -41,30 +41,21 @@ git clone https://github.com/hei5417-ux/idea-explorer.git ~/.workbuddy/skills/id
 
 ## 推广海报
 
-### 新版 · 示例对话系列
-
-<div align="center">
-  <img src="assets/01-cover-v2.png" width="280" alt="封面：让 AI 陪你思考，也敢指出你想错了" />
-  <img src="assets/01-effort.png" width="280" alt="案例 01：一句「努力没用」，先聊清楚哪里没用" />
-  <img src="assets/02-disagreement.png" width="280" alt="案例 02：你的感受值得听见，你的结论仍需检验" />
-</div>
-<div align="center">
-  <img src="assets/03-procrastination.png" width="280" alt="案例 03：先别急着给自己贴上「懒」的标签" />
-  <img src="assets/03-independent-thinking-v2.png" width="280" alt="当你想错了，AI 应该敢说" />
-</div>
-
-### 初版 · 四张套图
-
 <div align="center">
   <img src="assets/01-cover.png" width="280" alt="有个想法，但还说不清？" />
   <img src="assets/02-dialogue.png" width="280" alt="一句直觉，可以聊到多深？" />
+  <img src="assets/03-method.png" width="280" alt="把「我觉得」一步步聊清楚" />
 </div>
 <div align="center">
-  <img src="assets/03-method.png" width="280" alt="把「我觉得」一步步聊清楚" />
   <img src="assets/04-invitation.png" width="280" alt="给那些还没想明白的事，一个继续聊的机会" />
+  <img src="assets/01-cover-v2.png" width="280" alt="让 AI 陪你思考，也敢指出你想错了" />
+  <img src="assets/03-independent-thinking-v2.png" width="280" alt="当你想错了，AI 应该敢说" />
 </div>
-
-海报的生成提示词见 [assets/prompts.md](assets/prompts.md) 与 [assets/prompts-v2.md](assets/prompts-v2.md)。
+<div align="center">
+  <img src="assets/01-effort.png" width="280" alt="一句「努力没用」，先聊清楚哪里没用" />
+  <img src="assets/02-disagreement.png" width="280" alt="你的感受值得听见，你的结论仍需检验" />
+  <img src="assets/03-procrastination.png" width="280" alt="先别急着给自己贴上「懒」的标签" />
+</div>
 
 ## 目录结构
 
@@ -73,5 +64,5 @@ idea-explorer/
 ├── SKILL.md               # 主定义
 ├── agents/openai.yaml     # 接口配置
 ├── references/            # 对话示例
-└── assets/                # 推广海报 + 生成提示词
+└── assets/                # 推广海报
 ```
