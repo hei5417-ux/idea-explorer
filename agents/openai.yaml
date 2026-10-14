@@ -1,0 +1,6 @@
+interface:
+  display_name: "观点探索"
+  short_description: "用案例、比较与关键追问，陪你深化尚未成熟的想法并发现误解"
+  default_prompt: "使用 $idea-explorer，陪我一步步探索这个还不成熟的想法，先帮我弄清自己真正想说什么。"
+policy:
+  allow_implicit_invocation: true
